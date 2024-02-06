@@ -4,9 +4,9 @@
 docker login
 
 #Tag the image
-docker tag sample-app:latest wesley3015/sample-app:latest
+docker tag sample-app:latest wesley3015/sample-app:v1
 
 #Push the image
-docker push wesley3015/sample-app:latest
+docker push wesley3015/sample-app:v1
 
 
