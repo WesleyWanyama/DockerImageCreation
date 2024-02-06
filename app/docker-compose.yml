@@ -1,0 +1,6 @@
+version: '3'
+services:
+  sample-app:
+    image: <your-dockerhub-username>/sample-app:latest
+    ports:
+      - "8080:80"
