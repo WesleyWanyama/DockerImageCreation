@@ -23,3 +23,11 @@ This is a sample one-page HTML application running in a Docker container.
     docker-compose up -d
 
 3. Access the application at http://localhost:8080
+
+## Running the Image from Docker Hub
+Link to image in the repository https://hub.docker.com/layers/wesley3015/sample-app/v1/images/sha256-4f3809b0511669d65d3a0ba757f618cbe4fad1b63e57b00584f4f773340cc715?context=repo
+
+Command to pull the image from Docker Hub:
+```bash
+docker pull wesley3015/sample-app:v1
+```
